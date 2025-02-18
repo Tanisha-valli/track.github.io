@@ -1,0 +1,143 @@
+body{
+   
+    font-family: "Comfortaa", serif;
+   
+  }
+.header{
+    background-color: rgb(61, 61, 247);
+    color: white;
+    padding-left: 25px;
+    font-size: x-large;
+}
+.input-form{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+     width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(61, 61, 247);
+    margin-top: 20px;
+    padding: 10px 0px;
+    
+}
+
+#add-button{
+        background-color:rgb(61, 61, 247) ;
+        width: 50px;
+        height: 50px;
+        color: white;
+        border-radius:50% ;
+        -webkit-border-radius:50% ;
+        -moz-border-radius:50% ;
+        -ms-border-radius:50% ;
+        -o-border-radius:50% ;
+        font-size: x-large;
+}
+.inputs{
+    width: 30%;
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+
+    justify-content: space-between;
+}
+.card{
+    background-color:rgb(61, 61, 247) ;
+    height: 150px;
+    width: 18rem;
+    border: 0px;
+   
+}
+
+.card-body{
+    color: white;
+}
+.rupee{
+
+font-size: 50px;
+}
+#totalIncome{
+    font-size: 45px;
+}
+.table{
+    padding-top: 20px;
+}
+.transaction-table{
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, .5);
+    padding: 0px;
+    
+}
+#header-row{
+    background-color: rgb(61, 61, 247);
+    
+}
+#header-row th{
+    padding: 15px 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 786px){
+    .header{
+        background-color: black;
+    }
+    .input-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+       
+    }
+    .inputs{
+        width: 75%;
+    }
+    #add-button{
+        background-color: black;
+        width: 75%;
+        border-radius: 8px;
+       
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: 0px;
+}
+.card-body{
+    color: white;
+    font-size: 30px;
+    padding-top: 30pxpx;
+}
+.rupee{
+
+font-size: 30px;
+}
+#totalIncome{
+    font-size: 30px;
+}
+#header-row{
+    background-color: black;
+}
+}

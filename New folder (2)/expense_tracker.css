@@ -1,0 +1,79 @@
+body{
+   
+    font-family: "Comfortaa", serif;
+   
+  }
+
+.parent{
+    position: relative;
+    border: 1px solid black;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.solid-circle{
+    background-color: rgb(61, 61, 247);
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+   position: absolute;
+   right: -450px;
+   top: -90px;
+   z-index: 1;
+   
+}
+.header-home{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+#click-here-button{
+    background-color: white;
+    color:  rgb(61, 61, 247);
+    z-index: 2;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgb(34, 33, 33);
+}
+#name{
+    color: rgb(61, 61, 247);
+    font-size: 150px;
+}
+.form-floating{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.35);
+    border-radius: 8px;
+ 
+}
+#login-button{
+    background-color: rgb(61, 61, 247);
+    color: white;
+    padding: 5px 20px;
+}
+.main-content{
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .solid-circle{
+        background-color: black;
+        height: 300px;
+        width: 300px;
+        top: -140px;
+        right: -145px;
+    }
+    #name{
+        color:black;
+        font-size: 100px;
+    }
+    #login-button{
+        background-color: black;
+    }
+    #click-here-button{
+        color: black;
+       
+    }
+
+}
